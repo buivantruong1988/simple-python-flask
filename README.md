@@ -30,3 +30,8 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
+
+### Information
+
+- This app will be exposed port 5000 by default
+- The path of log file for this app is "/var/log/app.log"
