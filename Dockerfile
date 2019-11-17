@@ -10,6 +10,6 @@ RUN yum install -y epel-release
 RUN yum install -y python-pip
 RUN pip install -r requirements.txt
 
-CMD["python", "app.py"]
+CMD [ "python", "app.py" ]
 
 
